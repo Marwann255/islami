@@ -30,7 +30,7 @@ class _QuranTabState extends State<QuranTab> {
     for (var sura in suras) {
       searchableList.add(sura);
     }
-    SharedPrefService.getMostRecentList(mostRecentList);
+    SharedPrefService.getMostRecentList();
   }
 
   @override
@@ -61,8 +61,7 @@ class _QuranTabState extends State<QuranTab> {
               const SizedBox(height: 10),
               Text("Sura List", style: AppTextStyles.white16Bold),
             ],
-
-            const SizedBox(height: 10),
+            // const SizedBox(height: 10),
             Expanded(
               flex: 58,
               child: searchText.isNotEmpty && searchableList.isEmpty

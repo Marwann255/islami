@@ -16,22 +16,27 @@ dependencies:
   carousel_slider: ^5.1.2
   flutter_svg: ^2.3.0
   shared_preferences: ^2.5.5
+  flutter_native_splash: ^2.4.8
+  prayers_times: ^0.0.6
+  intl: ^0.20.3
+  retrofit: ^4.10.0
+  dio: ^5.11.1
+  audioplayers: ^6.8.1
 
 flutter_native_splash:
   color: "#202020"
   image: assets/images/ic_splash.png
-  branding: assets/images/ic_bottom_splash.png
+#  branding: assets/images/ic_bottom_splash.png
   branding_mode: bottom
   android_12:
     image: assets/images/ic_splash.png
-    branding: assets/images/ic_bottom_splash.png
+#    branding: assets/images/ic_bottom_splash.png
     color: "#202020"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-  flutter_native_splash: ^2.4.7
   flutter_launcher_icons: ^0.14.4
 
 flutter_launcher_icons:
@@ -50,6 +55,7 @@ flutter:
     - assets/images/4.0x/
     - assets/files/Suras/
     - assets/files/Hadeeth/
+    - assets/files/Azkar/
   fonts:
     - family: JannaLT
       fonts:

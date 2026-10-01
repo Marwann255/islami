@@ -23,12 +23,13 @@ class SharedPrefService {
     await _pref.setStringList(AppConstant.mostRecentKey, idList);
   }
 
-  static Future<void> getMostRecentList(List<SuraDM> mostRecentList) async {
-    _pref.clear();
-    List<String> idList = _pref.getStringList(AppConstant.mostRecentKey) ?? [];
-    for (int i = 0; i < suras.length; i++) {
-      int id = int.parse(idList[i]);
-      mostRecentList.add(suras[id - 1]);
-    }
+  static List<SuraDM> getMostRecentList() {
+    final idList = _pref.getStringList(AppConstant.mostRecentKey) ?? [];
+    return idList
+        .map(int.tryParse)
+        .whereType<int>()
+        .where((id) => id >= 1 && id <= suras.length)
+        .map((id) => suras[id - 1])
+        .toList();
   }
 }

@@ -53,11 +53,11 @@ class _SplashScreenState extends State<SplashScreen> {
             left: 69,
             child: Image.asset(AppAssets.topSplash, width: 291),
           ),
-          Positioned(
-            top: 792,
-            left: 93,
-            child: Image.asset(AppAssets.icBottomSplash, width: 244),
-          ),
+          // Positioned(
+          //   top: 792,
+          //   left: 93,
+          //   child: Image.asset(AppAssets.icBottomSplash, width: 244),
+          // ),
         ],
       ),
     );

@@ -8,7 +8,7 @@ abstract final class AppAssets {
   static const String icSebha = "$_imagePath/ic_sebha.png";
   static const String icTime = "$_imagePath/ic_time.png";
   static const String icSplash = "$_imagePath/ic_splash-1.png";
-  
+
   // Backgrounds & Large Images
   static const String quranBackground = "$_imagePath/home_background.png";
   static const String splashBackground = "$_imagePath/splash_background.png";
@@ -20,7 +20,7 @@ abstract final class AppAssets {
   // Logos & Text
   static const String islamiLogo = "$_imagePath/islami_logo.png";
   static const String islamiText = "$_imagePath/islami_text.png";
-  
+
   // UI Elements & Shapes
   static const String shapeLeft = "$_imagePath/shape_left.png";
   static const String shapeRight = "$_imagePath/shape_right.png";
@@ -30,13 +30,24 @@ abstract final class AppAssets {
   static const String suraListNum = "$_imagePath/sura_list_num.png";
   static const String icBottomSplash = "$_imagePath/ic_bottom_splash.png";
   static const String islamiTopScreen = "$_imagePath/islami_top_screen.png";
-  static const String suraDetailsBottom = "$_imagePath/sura_details_bottom_decoration.png";
-  static const String suraDetailsLeft = "$_imagePath/sura_details_left_corner.png";
-  static const String suraDetailsRight = "$_imagePath/sura_details_right_corner.png";
+  static const String suraDetailsBottom =
+      "$_imagePath/sura_details_bottom_decoration.png";
+  static const String suraDetailsLeft =
+      "$_imagePath/sura_details_left_corner.png";
+  static const String suraDetailsRight =
+      "$_imagePath/sura_details_right_corner.png";
   static const String imgMostRecent2x = "$_imagePath/2.0x/img_most_recent.png";
   static const String imgMostRecent = "$_imagePath/img_most_recent.png";
   static const String sebha = "$_imagePath/Sebha.svg";
   static const String sebhaBody = "$_imagePath/SebhaBody 1.png";
+  static const String eveningAzkar = "$_imagePath/bell-icon 1.png";
+  static const String morningAzkar = "$_imagePath/comment-bubble-icon 1.png";
+  static const String azkar3 = "$_imagePath/document-icon 1.png";
+  static const String azkar4 = "$_imagePath/flag-icon 1-1.png";
+  static const String azkar5 = "$_imagePath/flag-icon 1.png";
+  static const String azkar6 = "$_imagePath/aemail-icon 1-1.png";
+  static const String azkar7 = "$_imagePath/compass-icon 1.png";
+  static const String azkar8 = "$_imagePath/calendar-icon 1.png";
 
   // Onboarding Images
   static const String onboarding1 = "$_imagePath/onboarding_1.png";

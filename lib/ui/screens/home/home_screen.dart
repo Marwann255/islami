@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:islami/ui/screens/home/tabs/hadith/hadith_tab.dart';
 import 'package:islami/ui/screens/home/tabs/quran/quran_tab.dart';
-import 'package:islami/ui/screens/home/tabs/radio/radio_tab.dart';
+import 'package:islami/ui/screens/home/tabs/radio/screen/radio_tab.dart';
 import 'package:islami/ui/screens/home/tabs/sebha/sebha_tab.dart';
-import 'package:islami/ui/screens/home/tabs/time/time_tab.dart';
+import 'package:islami/ui/screens/home/tabs/time/screen/time_tab.dart';
 import 'package:islami/ui/utilites/app_assets.dart';
 import 'package:islami/ui/utilites/app_colors.dart';
 import 'package:islami/ui/utilites/app_constant.dart';
